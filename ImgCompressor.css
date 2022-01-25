@@ -1,0 +1,35 @@
+.ImgCompressor{
+    display:flex;
+    flex-direction: line;
+    border-radius: 5px;
+    align-items: center;
+  
+    padding: 20px;
+}
+.original{
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    border: solid 1px black;
+
+}
+.compressed{
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    border: solid 1px black;
+
+}
+.compressed Img{
+    width: 300px;
+    height:250px;
+    align-items: center;
+
+}
+.original Img{
+    width:300px;
+    height: 250px;
+    align-items: center;
+}
